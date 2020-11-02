@@ -52,6 +52,12 @@ else:
 # List yaratmaq üçün:
 adlar = ["amin", "alvan", "huseyn"]
 
+# Listə element əlavə etmək
+adlar.append("salam")
+
+# Listdən element silmək:
+adlar.remove("alvan")
+
 # Listin hansısa elementi üçün
 adlar[2]
 if adlar[2] == "amin":
@@ -81,3 +87,5 @@ if "amin" in adlar:
 istenilen = input("Hansi adi yoxlayaq? ")
 if istenilen in adlar:
     # Hər hansısa işlər
+
+
