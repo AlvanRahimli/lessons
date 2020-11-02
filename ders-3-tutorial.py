@@ -48,14 +48,32 @@ elif yash < 25:
 else:
     print("25 yaşınız var")
 
-----------------------------------------------------------
 
-while *aparmali das qalib*:
-    *dasi apar*
+# List yaratmaq üçün:
+adlar = ["amin", "alvan", "huseyn"]
 
-say = 20
-while say > 0:
-    print("say 0-dan boyukdur")
-    say -= 1
-else:
-    print("say 0-a beraberdir")
+# Listin hansısa elementi üçün
+adlar[2]
+if adlar[2] == "amin":
+    # Hər hansısa işlər
+
+if yashlar[6] > 16:
+    # Hər hansısa işlər
+
+
+# Listin bir neçə elementi üçün
+adlar[2:7]
+adlar[:4]
+adlar[3:]
+
+# Listin hər bir elementinə baxmaq üçün
+for ad in adlar:
+    # Hər hansısa işlər
+
+# Elementin listin içində olub-olmamağına baxmaq:
+if "amin" in adlar:
+    # Hər hansısa işlər
+
+istenilen = input("Hansi adi yoxlayaq? ")
+if istenilen in adlar:
+    # Hər hansısa işlər
