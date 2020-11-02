@@ -70,6 +70,10 @@ adlar[3:]
 for ad in adlar:
     # Hər hansısa işlər
 
+# Ədəd aralığı üçün
+for eded in range(0, 15):
+    # Hər hansısa işlər
+
 # Elementin listin içində olub-olmamağına baxmaq:
 if "amin" in adlar:
     # Hər hansısa işlər
